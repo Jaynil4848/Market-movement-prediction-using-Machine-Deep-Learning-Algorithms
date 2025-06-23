@@ -1,0 +1,10 @@
+Create a file listing required packages:
+
+```txt
+numpy
+pandas
+matplotlib
+scikit-learn
+xgboost
+catboost
+tensorflow
