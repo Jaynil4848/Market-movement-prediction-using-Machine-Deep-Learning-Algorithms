@@ -1,2 +1,19 @@
-# Market-movement-prediction-using-Machine-Deep-Learning-Algorithms
-Predicts next-day stock movement (up/down) for NIFTY 100 using ML/DL models like LSTM, XGBoost &amp; Random Forest. Includes feature engineering, hit-ratio evaluation, and is designed for deployment via a TensorFlow dashboard.
+# Stock Market Movement Prediction using ML/DL
+
+This project predicts the **directional movement (up/down)** of next-day stock prices for NIFTY 100 stocks using Machine Learning and Deep Learning techniques.
+
+## 🔍 Overview
+- 📈 Models used: LSTM, XGBoost, Random Forest, CatBoost
+- 🧠 Features: EMA, RSI, MACD, ATR, ADX, Bollinger Bands, Lag returns
+- 📊 Evaluation: RMSE, MAPE, Hit-Ratio (Threshold-based directional accuracy)
+- 📅 Data span: 20 years (2005–2025)
+
+## 🗂️ Project Structure
+- `data/`: Contains stock data like `ABB.NS_data.csv`
+- `notebooks/`: Jupyter Notebooks for feature engineering and training
+- `models/`: (Optional) Save trained models here
+- `requirements.txt`: List of Python dependencies
+
+## ⚙️ Requirements
+```bash
+pip install -r requirements.txt
